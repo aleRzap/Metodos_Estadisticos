@@ -19,4 +19,4 @@ Semana 3:
 
 Semana 4:
 
-📎29/08/2022: Captura y codificacion de datos.
+📎29/08/2022: Captura y codificacion de datos..
