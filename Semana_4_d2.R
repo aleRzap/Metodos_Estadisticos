@@ -50,6 +50,7 @@ range(Entrevista$Edad)
 conFCF <- table(Entrevista$oi_1)
 prop.table(conFCF)*100
 pie(prop.table(conFCF)*100)
+        
 
 # Fue tu primera opcion la FCF?
 
@@ -61,17 +62,36 @@ prop.table(op)*100
 of <- table(Entrevista$oi_2a)
 prop.table(of)*100
 
+# Estuviste inscrito en otra Facultad ?
+
+oi_4 <- table(Entrevista$oi_4)
+prop.table(oi_4)*100
+
+# Donde estaba inscrito ?
+
+oi_4a <- table(Entrevista$oi_4a)
+prop.table(oi_4a)*100
+
+# Convivencia
+
+ef_1 <- table(Entrevista$ef_1)
+prop.table(Entrevista$ef_1)*100
+
+ins_1 <- table(Entrevista$ins_1)
+prop.table(ins_1)*100
+
+ap_1 <- table(Entrevista$ap_1)
+prop.table(ap_1)*100
+
+ap_2 <- table(Entrevista$ap_2)
+prop.table(ap_2)*100
+
+ap_3 <- table(Entrevista$ap_3)
+prop.table(ap_3)*100
 
 
-
-
-
-
-
-
-
-
-
+# Guardar la BD con los datos nuevos en formato csv
+write.csv(Entrevista, "Encuesta_codificada.csv")
 
 
 
