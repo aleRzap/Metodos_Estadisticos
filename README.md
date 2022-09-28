@@ -34,9 +34,17 @@ Semana 6:
 
 🌱 12/09/2022: Clase en el Aula de computo, obtencion de resultados.
 
+Semana 7:
 
+🌱 19/09/2022: Clase en el Aula de computo: Finalizacion con la base de datos, encuestas.
 
+🌱 21/09/2022: Clase en el Aula de computo: Presentacion de resultados.
 
+Semana 8:
+
+🌱 26/09/2022: Sin clase, salida a campo.
+
+🌱28/09/2022: Clase en el Aula de computo: Actualizacion en el archivo Readme.
 
 
 
