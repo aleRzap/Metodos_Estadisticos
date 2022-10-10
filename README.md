@@ -46,6 +46,20 @@ Semana 8:
 
 🌱28/09/2022: Clase en el Aula de computo: Actualizacion en el archivo Readme.
 
+Semana 9:
+
+🌱 03/10/2022: Trabajo sin profesor.
+🌱 05/10/2022: Analisis de varianza (ANOVA)
+
+Semana 10:
+
+🌱 10/10/2022: Continuacion con el analisis de varianza (ANOVA)
+🌱 12/10/2022: 
+
+
+
+
+
 
 
 
