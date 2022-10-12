@@ -1,8 +1,6 @@
 # Examen
 # Analisis de varianza
-
-
-Analisis_Suelo<- read.csv("Datos/Analisis de varianza.csv")
+# Analisis_Suelo <- read.csv("Analisis de varianza")
 
 
 # Observamos diferencias en los valores promedios y de variabilidad por grupos?
@@ -69,26 +67,3 @@ plot(TukeyHSD(par.aov))
 #¿cuál sería tu conclusión en el contexto del problema?
 
 # Como se menciona en el histograma existe un %95 de nivel de confidecialidad
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
