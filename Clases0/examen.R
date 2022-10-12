@@ -1,11 +1,15 @@
 # Examen
 # Analisis de varianza
-# Analisis_Suelo <- read.csv("Analisis de varianza")
+# 
+
+library(repmis)
+Nematodos <- read.csv("Datos/Analisis de varianza.csv")
 
 
 # Observamos diferencias en los valores promedios y de variabilidad por grupos?
 
-# Asi es, debido a que en la consaola corresponden numeros del promedio y hay diferencias en variablididad,
+# Asi es, debido a que en la consaola corresponden numeros del promedio y hay 
+#diferencias en variablididad,
 
 boxplot(Analisis_Suelo$Nematodos ~ Analisis_Suelo$Suelo,
         xlab = "Suelo Tipo",
@@ -15,26 +19,27 @@ boxplot(Analisis_Suelo$Nematodos ~ Analisis_Suelo$Suelo,
 
 # Cuántas veces es la diferencia entre la varainza más pequeña y la más grande?
 
-# Si, es 6 veces mayor, ya que en el apartado de S1, da resultado de 571.7 y en el S5, corresponde a,
+# Si, es 6 veces mayor, ya que en el apartado de S1, da resultado 
+#de 571.7 y en el S5, corresponde a,
 # 90.8
 
-tapply(Analisis_Suelo$Nematodos, Analisis_Suelo$Suelo, mean)
+tapply(Nematodos$Nematodos, Nematodos$Suelo, mean)
 
-tapply(Analisis_Suelo$Nematodos, Analisis_Suelo$Suelo, median)
+tapply(Nematodos$Nematodos, Nematodos$Suelo, median)
 
-tapply(Analisis_Suelo$Nematodos, Analisis_Suelo$Suelo, sd)
+tapply(Nematodos$Nematodos, Nematodos$Suelo, sd)
 
-tapply(Analisis_Suelo$Nematodos, Analisis_Suelo$Suelo, var)
+tapply(Nematodos$Nematodos, Nematodos$Suelo, var)
 
-tapply(Analisis_Suelo$Nematodos, Analisis_Suelo$Suelo, length)
-
-
-bartlett.test(Analisis_Suelo$Nematodos, Analisis_Suelo$Suelo)
+tapply(Nematodos$Nematodos, Nematodos$Suelo, length)
 
 
-shapiro.test(Analisis_Suelo$Nematodos)
+bartlett.test(Nematodos$Nematodos, Nematodos$Suelo)
 
-par.aov <- aov(Analisis_Suelo$Nematodos ~ Analisis_Suelo$Suelo)
+
+shapiro.test(Nematodos$Nematodos)
+
+par.aov <- aov(Nematodos$Nematodos ~ Nematodos$Suelo)
 
 summary(par.aov)
 
@@ -42,8 +47,10 @@ summary(par.aov)
 #H0 = Las varianzas son homogeneas
 #H1 = Las varianzas no son homogenas
 
-#Describe los resultados obtenidos indicando cuál es el valor del estadístico de contraste (F),
-#los gradosde libertad del factor, los grados de libertad residuales y el valor de P.
+#Describe los resultados obtenidos indicando cuál es el valor del estadístico 
+#de contraste (F),
+#los gradosde libertad del factor, los grados de libertad residuales y el valor
+#de P.
 
 # Valor estadistico de F = 0.000207
 
