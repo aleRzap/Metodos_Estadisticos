@@ -56,7 +56,9 @@ Semana 10:
 
 🌱 10/10/2022: Continuacion con el analisis de varianza (ANOVA)
 
-🌱 12/10/2022:
+🌱 12/10/2022: Primer Examen (Analisis de Varianza)
+
+Semana 11:
 
 
 
