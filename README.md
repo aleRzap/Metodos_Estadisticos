@@ -60,10 +60,21 @@ Semana 10:
 
 Semana 11:
 
+🌱 17/10/2022: Trabajo sin Docente.
 
+🌱 19/10/2022: Sala de computo: Revision de Examen, comentarios
 
+Semana 12:
 
+🌱 24/10/2022: Trabajo sin profesor.
 
+🌱 26/10/2022: Segundo examen II.
+
+Semana 13:
+
+🌱 31/10/2022: Sala de computo.
+
+🌱 02/11/2022: Sala de computo.
 
 
 
