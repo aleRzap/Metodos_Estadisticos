@@ -76,6 +76,24 @@ Semana 13:
 
 🌱 02/11/2022: Sala de computo.
 
+Semana 14:
 
+🌱 07/11/2022: Trabajo sin docente.
 
+🌱 09/11/2022: Trabajo sin docente.
 
+Semana 15:
+
+🌱 14/11/2022: Trabajo sin docente.
+
+🌱 16/11/2022: Trabajo sin docente.
+
+Semana 16:
+
+🌱 21/11/2022: Trabajo sin docente.
+
+🌱 23/11/2022: Trabajo sin docente.
+
+Semana 17:
+
+🌱 30/11/2022: Examen Final.
